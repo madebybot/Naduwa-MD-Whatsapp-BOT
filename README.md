@@ -1,4 +1,4 @@
-# Raganork-multi-device
+# Naduwa-multi-device-BOT
 ## Multi device whatsapp bot created with [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)
 ## Looking for non multi device version? Get it [here](https://github.com/souravkl11/raganork-legacy)
 <!---## Readme first before using 👇❌
