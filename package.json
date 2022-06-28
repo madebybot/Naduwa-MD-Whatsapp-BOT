@@ -1,7 +1,7 @@
 {
-  "name": "raganork",
+  "name": "NADUWA BOT",
   "version": "1.0.2",
-  "description": "Raganork whatsapp bot- Multi device version.",
+  "description": "NADUWA whatsapp bot- Multi device version.",
   "main": "./Raganork/index.js",
   "scripts": {
     "start": "supervisor -s index.js"
