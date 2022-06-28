@@ -7,7 +7,7 @@ const {
   FancyRandom,
   getListFromCommand,
   skbuffer
-} = require("raganork-bot");
+} = require("NADUWA BOT");
 const {
   Module,
   commands
@@ -30,17 +30,17 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        displayText: 'YOUTUBE',
+        url: 'https://www.youtube.com/channel/UC2clDq7k5y20sm5OzHEeW7g'
     }
 }, {
   urlButton: {
-    displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    displayText: 'BOT CREATER',
+    url: 'http://Wa.me//94722618576'
     }
 }, {
     quickReplyButton: {
-        displayText: 'Bot status',
+        displayText: 'Bot spead',
         id: 'ping'+myid
     }
 }, {
@@ -50,8 +50,8 @@ Module({
     }  
 }, {
     quickReplyButton: {
-        displayText: 'Support group',
-        id: 'support'+myid
+        displayText: 'CHAT Group',
+        url: 'https://chat.whatsapp.com/K5kKCuXfJD04rwL2SXkzCu'
     }
 }]
 var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
@@ -61,8 +61,6 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
-┃✩│ Ram: 1024 MB
-┃✩│ Disk Space: 620 GB
 ┃✩│ Version: ${config.VERSION}
 ┃✩│
 ┃✩│
